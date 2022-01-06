@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Outfit:wght@300;400;600&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bigelow Rules', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 400px;
+    height: 670px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 50%, 16%);
+    /* border: 1px solid hsl(215, 32%, 27%); */
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+}
+
+.main-image {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.div-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.div-2 {
+    width: 350px;
+    margin: auto;
+}
+
+.div-2 > h1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.35em;
+    font-weight: 600;
+}
+
+.div-2 > p {
+    font-size: 1.18em;
+    font-weight: 300;
+    line-height: 1.6rem;
+    margin-bottom: 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+.div-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.round-image {
+    width: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-top: 22px;
+}
+
+.div-3 {
+    width: 350px;
+    margin: auto;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+.div-3 > p {
+    margin-top: 27px;
+    margin-left: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.writer {
+    color: hsl(0, 0%, 100%);
+}
+
+.price > span {
+    margin-left: 5px;
+}
+
+.time > span {
+    margin-left: 5px;
+}
+
